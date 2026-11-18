@@ -14,6 +14,10 @@ A Django and Celery application for long-running learning tasks. A run keeps its
 
 I led a six-person team building a Django application for peer assessment. Instructors create assessments, students review their teammates, and instructors review the results. We cache generated feedback so a report can reuse an earlier analysis. The [data models](https://github.com/YuqiWang1106/assessmate/blob/main/my_app/models.py) show how each response connects to an assessment and how we identify cached feedback for a team and question.
 
+### [Career AI Toolkit](https://github.com/YuqiWang1106/career-ai-toolkit)
+
+For a team-built career planning app, I wrote the modules that match a student’s skills to a target role, suggest next steps by academic year, and draft résumé bullets from the student’s own notes. The [offline demo](https://github.com/YuqiWang1106/career-ai-toolkit/blob/main/demo.py) uses invented inputs and shows how the skill and course scores lead to a recommendation.
+
 ### [CookAI](https://github.com/RuolongMao/CookAI)
 
 CookAI is a team-built recipe app. Users can ask for recipe ideas, save recipes, and share them with other cooks. I worked on the React and FastAPI setup, the sign-in and registration screens, and the [database models and recipe-sharing API](https://github.com/RuolongMao/CookAI/commit/dc3c6701a585feab2a3d2a3805e80bf9ccdb59a9).
